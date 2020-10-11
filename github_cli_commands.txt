@@ -1,0 +1,17 @@
+to create repo :     		-> gh repo create 'repo_name'
+to create repo with flags:	-> gh repo create 'repo_name' --public
+to view repo :       		-> gh repo view
+to view repo in web: 		-> gh repo view --web
+
+to create gist :		-> gh gist create --public test.dart
+to view gist list : 		-> gh gist list
+to view gist with id : 		-> gh gist view 'gist_	id'
+to edit gist : 			-> gh edit 'gist_id
+
+to view issues :		-> gh issue list
+to view pr :			-> gh pr list
+to view closed pr :		-> gh pr list --state closed
+to view closed pr :		-> gh pr view 'pr_id'
+
+to create new pr : 		-> gh pr create 
+to create new pr with flags : 	-> gh pr create --title "Title here" --body "Body here"
